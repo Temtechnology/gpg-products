@@ -91,7 +91,7 @@ git add .
 git commit -m "Initial build: GPG Herbal Tea landing page"
 
 # 4. Connect to your GitHub repo (create it on github.com first)
-git remote add origin https://github.com/YOURUSERNAME/gpg-products.git
+git remote add origin https://github.com/Temtechnology/gpg-products.git
 
 # 5. Push
 git push -u origin main
