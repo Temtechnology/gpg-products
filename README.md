@@ -1,129 +1,100 @@
-# GPG Products — Herbal Tea Landing Page
+# GPG Products — Health Supplement Landing Pages
 
-Professional landing page template for GPG health supplement products.
-Built with pure HTML, CSS and vanilla JavaScript. Zero dependencies.
-
-## 🚀 Live Demo
-> After GitHub Pages setup: `https://YOURUSERNAME.github.io/gpg-products`
+> Professional landing page template system for GPG herbal health supplement products. Built for the Nigerian market with WhatsApp ordering, mobile-first design, and a reusable template for all 12 product lines.
 
 ---
 
-## 📁 Project Structure
+## About This Project
 
-```
-gpg-herbal-tea/
-├── index.html          ← Main landing page (edit content here)
-├── css/
-│   └── style.css       ← All styles + CSS variables for theming
-├── js/
-│   └── main.js         ← FAQ accordion, video loader, scroll effects
-├── images/
-│   ├── gpg-herbal-tea.png   ← Product box photo
-│   └── ingredients/         ← Herb ingredient photos
-├── video/
-│   └── testimonial.mp4      ← Customer testimonial video
-└── README.md
-```
+
+
+GPG Products needed a professional online presence for their range of 12 herbal supplement products. Each product required its own dedicated landing page with consistent branding, health benefit breakdowns, ingredient showcases, video testimonials, and a direct WhatsApp ordering flow.
 
 ---
 
-## ✅ Checklist — What To Add Before Going Live
+## ✨ Features
 
-- [ ] Replace `images/gpg-herbal-tea.png` with the real product photo
-- [ ] Add ingredient photos to `images/` folder (see prompts below)
-- [ ] Replace all `2348000000000` with the real WhatsApp number
-- [ ] Replace `+234 800 000 0000` in the footer with real phone number
-- [ ] Add `video/testimonial.mp4` (received via WhatsApp)
-- [ ] Update customer reviews with real testimonials from the client
-- [ ] Confirm NAFDAC reg number and add it to the Trust Bar
-- [ ] Update delivery info if needed
-
----
-
-## 🎨 Free Ingredient Image Sources
-
-| Ingredient       | Search Term               | Best Site      |
-|-----------------|--------------------------|----------------|
-| Ginger Root     | "ginger root fresh"       | unsplash.com   |
-| Bitter Kola     | "garcinia kola nuts"      | pexels.com     |
-| Bitter Leaf     | "vernonia amygdalina"     | freepik.com    |
-| Citrus Extract  | "citrus slices bright"    | unsplash.com   |
-| Cloves/Syzygium | "cloves spice macro"      | pexels.com     |
-| Utazi Leaf      | "utazi leaf Nigeria"      | Google Images  |
-| Aromatum        | "African aromatic spice"  | freepik.com    |
-
-### AI Image Prompts (Midjourney / Adobe Firefly / Leonardo AI)
-```
-"Close-up studio photo of [HERB NAME], fresh whole ingredient on a clean white surface,
-natural lighting, sharp focus, food photography style, 4K resolution"
-```
+**Mobile-first responsive design** — built for Nigerian mobile users
+**WhatsApp order integration** — one-tap ordering directly in WhatsApp
+**Image carousel** — smooth auto-rotating product image slider with swipe support
+**Video testimonial section** — embedded customer testimonial video
+**Ingredients showcase** — visual herb cards with descriptions
+**15 health benefits grid** — clean icon-based benefit cards
+**FAQ accordion** — smooth open/close animation
+**CSS variable theming** — swap the entire colour scheme per product in seconds
+**12-product template system** — duplicate and customise in under 20 minutes per product
+**Zero dependencies** — pure HTML, CSS and vanilla JavaScript
+**Free hosting** — deployed on GitHub Pages
 
 ---
 
-## 🌈 Theming for Other Products (12-product system)
 
-To create a new product page:
-1. Copy `index.html` → rename to e.g. `gpg-u7.html`
-2. Change the CSS variables in `style.css` OR override them in the HTML:
+
+---
+
+How to Create a New Product Page
+
+This template is built to scale across all 12 GPG products:
+
+1. **Copy** `index.html` → rename to e.g. `gpg-u7.html`
+2. **Update** the CSS accent colour in the `<style>` block if needed
+3. **Replace** product name, tagline, price, benefits, ingredients
+4. **Swap** product images in the carousel
+5. **Update** the WhatsApp message text in the order links
+6. **Done** — push to GitHub and the new page is live
+
+---
+
+Theming System
+
+Product colour themes are controlled by CSS variables at the top of `style.css`:
+
 ```css
-/* For dark dramatic products like GPG U7 */
 :root {
-  --green-dark: #0a1f05;
-  --green-mid:  #1a5c0a;
-  --cream:      #fdf8ee;
+  --green-dark:  #1a3d0f;   /* Main dark colour */
+  --green-mid:   #2d7a1b;   /* Accent / buttons */
+  --green-light: #5aaa38;   /* Highlights */
+  --gold:        #c8960a;   /* Gold accents */
+  --cream:       #fdfaf2;   /* Background */
 }
 ```
-3. Update product name, benefits, ingredients, price, images
-4. That's it — the entire layout reuses automatically ✅
+
+Change these 5 values and the entire page rebrands instantly.
 
 ---
 
-## 🐙 GitHub Pages Deployment
+## 🛠️ Built With
 
-```bash
-# 1. Initialise git in this folder
-git init
-
-# 2. Add all files
-git add .
-
-# 3. First commit
-git commit -m "Initial build: GPG Herbal Tea landing page"
-
-# 4. Connect to your GitHub repo (create it on github.com first)
-git remote add origin https://github.com/Temtechnology/gpg-products.git
-
-# 5. Push
-git push -u origin main
-```
-
-Then on GitHub:
-- Go to repo **Settings** → **Pages**
-- Source: `main` branch → `/ (root)` → **Save**
-- Site will be live in ~2 minutes at `https://YOURUSERNAME.github.io/gpg-products`
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Page structure and semantic markup |
+| CSS3 | Styling, animations, CSS Grid & Flexbox layout |
+| Vanilla JavaScript | FAQ accordion, image carousel, scroll effects |
+| Google Fonts | Playfair Display + Inter typography |
+| GitHub Pages | Free hosting and deployment |
 
 ---
 
-## 📱 Video — How to Add Your WhatsApp Video
+## 📱 Optimised For
 
-**Option A — Direct file (simplest):**
-1. Save the WhatsApp video to your computer
-2. Rename it `testimonial.mp4`
-3. Drop it into the `/video/` folder
-4. In `index.html`, find the comment `REAL VIDEO TAG` and uncomment the `<video>` block
-
-**Option B — YouTube (recommended for speed):**
-1. Upload to YouTube (can be set to Unlisted)
-2. Copy the video ID from the URL
-3. In `index.html`, replace the video section with:
-```html
-<iframe width="100%" height="450"
-  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-  frameborder="0" allowfullscreen
-  style="border-radius:16px;display:block">
-</iframe>
-```
+ Nigerian mobile users (90%+ of traffic)
+WhatsApp-based commerce flow
+Low-bandwidth connections (no heavy frameworks)
+All screen sizes from 320px to 1440px+
 
 ---
 
-Built by [Your Name] · Professional Web Developer
+## 👨‍💻 Developer
+
+**Okhiria Ehis Temperate**  
+Frontend Web Developer  
+📧 ehismentor@email.com  
+https://temtechnology.github.io/T.Okhiria/  
+https://www.linkedin.com/in/temperate-okhiria-bb332926b/
+
+---
+
+## 📄 License
+
+This project was built for a paying client. Design and code are proprietary.  
+Template structure available for portfolio demonstration purposes only.

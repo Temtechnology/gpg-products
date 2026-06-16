@@ -61,25 +61,24 @@
     </div>
 
     <div class="hero-img-wrap">
-      <!--
-        PRODUCT IMAGE INSTRUCTIONS:
-        Replace "images/gpg-herbal-tea.png" with your actual product image file.
-        The clean product photo (Image 2 you sent) is perfect for this.
-        Just rename it to gpg-herbal-tea.png and drop it in the /images/ folder.
-      -->
-      <img
-        src="images/gpg-herbal-Tea.png"
-        alt="GPG Herbal Tea — 25 Tea Bags, 75g"
-        onerror="this.style.background='linear-gradient(135deg,#d4edcc,#e8f5e1)';this.style.minHeight='380px';this.style.borderRadius='20px';this.alt='';this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22380%22%3E%3Crect fill=%22%23e8f5e1%22 width=%22400%22 height=%22380%22 rx=%2220%22/%3E%3Ctext x=%2250%25%22 y=%2242%25%22 font-size=%2264%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3E🍵%3C/text%3E%3Ctext x=%2250%25%22 y=%2262%25%22 font-family=%22Georgia%22 font-size=%2222%22 font-weight=%22700%22 fill=%22%231a3d0f%22 text-anchor=%22middle%22%3EGPG Herbal Tea%3C/text%3E%3Ctext x=%2250%25%22 y=%2274%25%22 font-family=%22Arial%22 font-size=%2214%22 fill=%22%236b7c64%22 text-anchor=%22middle%22%3EAdd product image to %2Fimages%2F%3C/text%3E%3C/svg%3E'"
-      />
-      <div class="hero-badge">
-        <div class="hero-badge-icon">🌿</div>
-        <div class="hero-badge-text">
-          <strong>7 Premium Herbs</strong>
-          <span>All-natural formula</span>
-        </div>
-      </div>
+  <div class="carousel">
+    <div class="carousel-track">
+      <img class="carousel-slide" src="images/gpg-herbal-Tea.png" alt="GPG Herbal Tea product view 1" />
+      <img class="carousel-slide" src="images/gpg-herbal-Tea2.png" alt="GPG Herbal Tea product view 2" />
     </div>
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="hero-badge">
+    <div class="hero-badge-icon">🌿</div>
+    <div class="hero-badge-text">
+      <strong>7 Premium Herbs</strong>
+      <span>All-natural formula</span>
+    </div>
+  </div>
+</div>
   </div>
 </section>
 
@@ -192,25 +191,9 @@
     </div>
     <div class="ingredients-grid">
 
-      <!--
-        INGREDIENT IMAGE GUIDE — Where to get free images:
-        1. Unsplash.com — search herb name, free download, no credit needed
-        2. Pexels.com  — same, completely free
-        3. Freepik.com — free with account
-        
-        OR generate with AI:
-        Midjourney / Adobe Firefly prompt template:
-        "Close-up photo of [HERB NAME], fresh and whole, on a clean white surface,
-         natural daylight, food photography style, sharp focus, 4K"
-        
-        Save each image in /images/ folder and update the src below.
-      -->
-
+      
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "ginger root" on unsplash.com
-          AI PROMPT: "Fresh ginger root whole and sliced on white background, food photography"
-        -->
+        
         <div class="ingredient-img-placeholder">
           <img src="images/Ginger Root.png">
           </div>
@@ -222,11 +205,11 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "garcinia kola bitter kola" on unsplash.com or pexels.com
-          AI PROMPT: "Bitter kola nuts Garcinia kola seeds on white background, macro photography"
-        -->
-        <div class="ingredient-img-placeholder">🌰</div>
+       
+        <div class="ingredient-img-placeholder">
+          <img src="images/Garcinia Kola.png">
+        </div>
+
         <div class="ingredient-body">
           <div class="ingredient-name">Garcinia Kola</div>
           <div class="ingredient-aka">Bitter Kola</div>
@@ -235,11 +218,10 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "vernonia amygdalina bitter leaf" on unsplash.com
-          AI PROMPT: "Vernonia amygdalina bitter leaf plant on white background, botanical photography"
-        -->
-        <div class="ingredient-img-placeholder">🍃</div>
+   
+        <div class="ingredient-img-placeholder">
+          <img src="images/Bitter Leaf.png">
+        </div>
         <div class="ingredient-body">
           <div class="ingredient-name">Vernonia Extract</div>
           <div class="ingredient-aka">Bitter Leaf</div>
@@ -248,11 +230,10 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "citrus peel extract" on unsplash.com
-          AI PROMPT: "Fresh citrus fruits sliced on white background, food photography, vibrant"
-        -->
-        <div class="ingredient-img-placeholder">🍋</div>
+     
+        <div class="ingredient-img-placeholder">
+          <img src="images/Citrus Bioflavonoids.png">
+        </div>
         <div class="ingredient-body">
           <div class="ingredient-name">Citrus Extract</div>
           <div class="ingredient-aka">Citrus Bioflavonoids</div>
@@ -261,11 +242,10 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "cloves syzygium aromaticum" on pexels.com
-          AI PROMPT: "Cloves Syzygium aromaticum spice on white marble surface, macro food photography"
-        -->
-        <div class="ingredient-img-placeholder">🌿</div>
+       
+        <div class="ingredient-img-placeholder">
+          <img src="images/Clove Family.png">
+        </div>
         <div class="ingredient-body">
           <div class="ingredient-name">Syzygium Extract</div>
           <div class="ingredient-aka">Clove Family</div>
@@ -274,11 +254,10 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "gongronema latifolium utazi leaf" on Google Images (royalty free)
-          AI PROMPT: "Utazi leaf Gongronema latifolium on white background, botanical close-up"
-        -->
-        <div class="ingredient-img-placeholder">🌱</div>
+      
+        <div class="ingredient-img-placeholder">
+          <img src="images/Utazi Leaf.png">
+        </div>
         <div class="ingredient-body">
           <div class="ingredient-name">Gongronema Latifolium</div>
           <div class="ingredient-aka">Utazi Leaf</div>
@@ -287,11 +266,10 @@
       </div>
 
       <div class="ingredient-card">
-        <!--
-          FREE IMAGE: Search "aromatum spice" or "hwentia grains of selim" on pexels.com
-          AI PROMPT: "African spice grains aromatic seeds on rustic wooden board, food photography"
-        -->
-        <div class="ingredient-img-placeholder">🫛</div>
+ 
+        <div class="ingredient-img-placeholder">
+          <img src="images/Aromatum Extract.png">
+        </div>
         <div class="ingredient-body">
           <div class="ingredient-name">Aromatum Extract</div>
           <div class="ingredient-aka">African Aromatic Spice</div>
@@ -339,42 +317,8 @@
     <p>Real people, real results. Watch how GPG Herbal Tea changed lives across Nigeria.</p>
 
     <div class="video-wrap">
-      <!--
-        VIDEO INSTRUCTIONS:
-        You received the video via WhatsApp. Here's how to add it:
-        
-        OPTION A — Local file (recommended for now):
-        1. Save the WhatsApp video to your computer
-        2. Rename it to "testimonial.mp4"
-        3. Put it in the /video/ folder in this project
-        4. Uncomment the <video> tag below and comment out the placeholder div
-        
-        OPTION B — Upload to YouTube:
-        1. Upload the video to YouTube (can be unlisted)
-        2. Replace the <video> tag with:
-           <iframe width="100%" height="450" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-           frameborder="0" allowfullscreen style="display:block;border-radius:16px"></iframe>
-        
-        OPTION C — Upload to Google Drive:
-        1. Upload to Drive, make it public
-        2. Use the embed link from Drive
-      -->
-
-      <!-- PLACEHOLDER — Delete this div when you add real video -->
-      <div class="video-placeholder" id="videoPlaceholder">
-        <div class="play-btn">▶</div>
-        <p>Customer Testimonial Video</p>
-        <p style="font-size:13px;opacity:0.6;margin-top:4px">Add your video file to /video/testimonial.mp4</p>
-        <!-- Quick local file loader for testing -->
-        <label style="margin-top:16px;background:rgba(255,255,255,0.15);padding:8px 20px;border-radius:20px;cursor:pointer;font-size:13px;color:white">
-          📁 Load video file to preview
-          <input type="file" id="videoFileInput" accept="video/*" style="display:none" />
-        </label>
-      </div>
-
-      <!-- REAL VIDEO TAG — Uncomment when ready -->
       
-      <video id="testimonialVideo" controls width="100%" style="display:none;border-radius:16px">
+      <video id="testimonialVideo" controls width="100%" style="border-radius:16px">
         <source src="video/testimonial.mp4" type="video/mp4" />
         Your browser does not support video.
       </video>
@@ -407,12 +351,12 @@
       </ul>
       <div class="pricing-btns">
         <!-- REPLACE 2348000000000 with real WhatsApp number -->
-        <a class="btn-order" href="https://wa.me/2348000000000?text=Hello%2C%20I%20want%20to%20order%20GPG%20Herbal%20Tea.%20Please%20send%20me%20the%20payment%20details." target="_blank">
+        <a class="btn-order" href="https://wa.me/2347033223637?text=Hello%2C%20I%20want%20to%20order%20GPG%20Herbal%20Tea" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
           Order on WhatsApp
         </a>
         <!-- REPLACE number below for call button -->
-        <a class="btn-call" href="tel:+2348000000000">
+        <a class="btn-call" href="tel:+2347033223637">
           📞 Call to Order
         </a>
       </div>
@@ -435,7 +379,7 @@
         <div class="tcard-author">
           <div class="tcard-avatar">A</div>
           <div>
-            <div class="tcard-name">Adaeze O.</div>
+            <div class="tcard-name">Adaeze Ifi.</div>
             <div class="tcard-loc">Lagos, Nigeria</div>
           </div>
         </div>
@@ -446,7 +390,7 @@
         <div class="tcard-author">
           <div class="tcard-avatar">E</div>
           <div>
-            <div class="tcard-name">Emmanuel K.</div>
+            <div class="tcard-name">Emmanuel Opkoye.</div>
             <div class="tcard-loc">Abuja, Nigeria</div>
           </div>
         </div>
@@ -457,7 +401,7 @@
         <div class="tcard-author">
           <div class="tcard-avatar">F</div>
           <div>
-            <div class="tcard-name">Fatimah B.</div>
+            <div class="tcard-name">Fatimah Benson.</div>
             <div class="tcard-loc">Kano, Nigeria</div>
           </div>
         </div>
@@ -538,6 +482,6 @@
 </footer>
 
 <!-- Scripts -->
-<script src="js/main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
